@@ -1,0 +1,23 @@
+En Git, un commit es una operación que guarda los cambios realizados en los archivos de tu proyecto en el historial del repositorio. Cada commit actúa como un punto de guardado (o snapshot) que registra el estado de los archivos en un momento determinado.
+
+Características clave de un commit:
+Identificador único (hash): Git asigna un código alfanumérico (ej. a1b2c3d) a cada commit.
+
+Mensaje descriptivo: Debes incluir un mensaje que explique los cambios realizados (ej: "Corrige error en el login").
+
+Autor y fecha: Registra quién hizo el commit y cuándo.
+
+Parent commit: Apunta al commit anterior, formando una línea de tiempo (historial).
+
+Comandos básicos relacionados:
+Crear un commit:
+
+bash
+Copy
+git add .               # Añade los cambios al área de staging
+git commit -m "Mensaje" # Crea el commit con un mensaje
+Ver commits previos:
+
+bash
+Copy
+git log                 # Muestra el historial de commits
